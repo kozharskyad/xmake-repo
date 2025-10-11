@@ -8,10 +8,7 @@ package('omsfw')
   add_deps('objfw')
   add_includedirs('include')
 
-  on_load(function (package)
-    package:add('includedirs', 'include')
-  end)
-
   on_install(function (package)
     import('package.tools.xmake').install(package)
+    os.cp('include', package:installdir('include'))
   end)
