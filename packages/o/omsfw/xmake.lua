@@ -6,7 +6,11 @@ package('omsfw')
   add_versions('1.0.0', '7a002761f54fe7bcae57b2f2eb56961868ee229e')
 
   add_deps('objfw')
-  add_includedirs('include', {public = true})
+  add_includedirs('include')
+
+  on_load(function (package)
+    package:add('includedirs', 'include')
+  end)
 
   on_install(function (package)
     import('package.tools.xmake').install(package)
