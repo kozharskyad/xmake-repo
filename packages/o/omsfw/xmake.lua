@@ -4,11 +4,10 @@ package('omsfw')
   set_kind('library')
 
   add_urls('https://github.com/kozharskyad/omsfw.git')
-  add_versions('1.0.0', '8457dca46e9af8658ac1cbcfbf8e311c990ec7cb')
+  add_versions('1.0.0', 'fcb4fbd45e60b766874308b8480f828251195db9')
 
   add_deps('objfw')
 
   on_install(function (package)
     import('package.tools.xmake').install(package)
-    -- os.cp('src/include', package:installdir())
   end)
