@@ -10,5 +10,5 @@ package('omsfw')
 
   on_install(function (package)
     import('package.tools.xmake').install(package)
-    os.cp('src/include', package:installdir())
+    -- os.cp('src/include', package:installdir())
   end)
