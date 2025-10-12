@@ -3,7 +3,7 @@ package('omsfw')
   set_license('LGPL-3.0')
 
   add_urls('https://github.com/kozharskyad/omsfw.git')
-  add_versions('1.0.0', 'b17b0e27877ebbe6769876adb7cd568a36940caa')
+  add_versions('1.0.0', '56294d0d80b701741ffb6c7276019a55e5eadca8')
 
   add_deps('objfw')
 
