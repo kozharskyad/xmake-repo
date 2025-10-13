@@ -4,7 +4,7 @@ package('omsfw')
   set_kind('library')
 
   add_urls('https://github.com/kozharskyad/omsfw.git')
-  add_versions('1.0.0', 'fcb4fbd45e60b766874308b8480f828251195db9')
+  add_versions('1.0.0', '6e21b6786a659dc7cc7164a093aa2b16c29c4069')
 
   add_deps('objfw')
 
