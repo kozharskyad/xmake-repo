@@ -4,7 +4,7 @@ package('ojlogger')
   set_kind('library')
 
   add_urls('https://github.com/kozharskyad/ojlogger.git')
-  add_versions('1.0.0', '0514efeadf5278ecf55711fa4614b0fed7bd2caa')
+  add_versions('1.0.0', 'b1ab1e3843bdcf9ac84b51f081b419757852219c')
 
   add_deps('objfw')
 
